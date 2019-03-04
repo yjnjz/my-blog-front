@@ -1,0 +1,112 @@
+html {
+	background: url('/Images/Background.jpg') no-repeat center center fixed;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+.Login {
+	position: relative;
+	width: 30%;
+	background-color: white;
+	color: #212529;
+	padding: 2rem;
+	margin-top: 12rem;
+	margin-left: 30rem;
+	box-shadow:0 0 5px rgba(0,0,0,.25);
+}
+
+.form-control {
+	display: block;
+	margin-bottom: .7rem;
+    width: 90%;
+    height: 1.8rem;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+    background-color: #fff;
+}
+
+.welcome {
+	display: inline-block;
+	color: rgb(151, 183, 194);
+	font-family: cursive;
+	font-size: 1.8rem;
+	margin-left: 6.5rem;
+}
+
+.joinUs {
+	display: inline-block;
+	color: darkgray;
+	font-size: .9rem;
+	margin-top: 1.5rem;
+}
+
+.form-label {
+	display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover:not(:disabled):not(.disabled) {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn:focus, .btn:hover {
+    text-decoration: none;
+}
+
+.btn {
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s
+	  ease-in-out,background-color .15s
+	  ease-in-out,border-color .15s
+	  ease-in-out,box-shadow .15s
+	  ease-in-out;
+}
+
+.tooltip-inner {
+	display: block;
+    max-width: 300px;
+	padding: 5px 8px;
+	margin-left: 4rem;
+    color: #fff;
+    text-align: center;
+	background-color: #000;
+	opacity:0.8;
+	border-radius: 4px;
+	font-size: .9rem;
+}
+
+.arrow {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	opacity:0.8;
+	border-color: black transparent transparent transparent;
+}
